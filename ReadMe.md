@@ -206,7 +206,7 @@ Yes, according to these files – Pluto is, indeed, a planet.
 
 ## Defining primitive variable types in the CSV file:
 
-To reduce manual editing of the enum, the type and name of each variable may be defined in the header row. The constant name may also be defined in the first row of the first column. Values in the first column will be converted to SNAKE_CASE by the program.
+To reduce manual editing of the enum, the type and name of each variable may be defined in the header row. The constant name may also be defined in the first row of the first column.  Values in the first column will be converted to SNAKE_CASE by the program.
 
 To do this, format each header cell like this:
 
