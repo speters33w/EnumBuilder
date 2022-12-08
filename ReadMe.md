@@ -61,7 +61,7 @@ Class Types or Objects may also be defined in the CSV before generation.
 
 
 
-**Source Dependencies: **
+**Source Dependencies:**
 
 - **Note - the jar file is runnable without any additional imports or downloads, but does require Java 11 or higher.**
 
@@ -206,7 +206,7 @@ Yes, according to these files – Pluto is, indeed, a planet.
 
 ## Defining primitive variable types in the CSV file:
 
-To reduce manual editing of the enum, the type and name of each variable may be defined in the header row. The constant name may also be defined in the first row. Values in the first row will be converted to SNAKE_CASE by the program.
+To reduce manual editing of the enum, the type and name of each variable may be defined in the header row. The constant name may also be defined in the first row of the first column. Values in the first column will be converted to SNAKE_CASE by the program.
 
 To do this, format each header cell like this:
 
@@ -359,7 +359,7 @@ The signature of `java.awt.Point` is `Point(int x, int y)`. You would instantiat
 Point location = new Point(0,0);
 ```
 
-For EnumBuilder to translate this from CSV to code, you will have to add a column before the "x Shift" column. This column is where you will place the instantiating statements. In this case all cells in this column except for the header should read: `new Point(`. The header or this new column should read the Type (`Point`) followed by a space, followed by the name for the enum field `shift` followed by an opening left parenthesis to indicate the following columns are arguments.
+For EnumBuilder to translate this from CSV to code, you will have to add a column before the "x Shift" column. This column is where you will place the instantiating statements. In this case all cells in this column except for the header should read: `new Point(`. The header or this new column should read the Type`Point` followed by a space, followed by the name for the enum field `shift` followed by an opening left parenthesis to indicate the following columns are arguments.
 
 The header of the new column should read: `Point shift(`
 The rest of the cells in the new column should read: `new Point(`
