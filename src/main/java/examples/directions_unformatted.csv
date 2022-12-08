@@ -1,0 +1,5 @@
+Cardinal Direction,Map Direction,x Shift,y Shift,Cardinal Abbreviation,User Input
+North,up,0,-1,N,u
+West,left,-1,0,W,l
+South,down,0,1,S,d
+East,right,1,0,E,r

@@ -1,0 +1,4 @@
+order,file contents,file path,Interesting Number
+one,My naïve fiancé's résumé,c:\users\boopsie lindon\documents\my resume.doc,-2147483648
+2,TimJohnson@tim-computer-1234-zxcv,/home/TimJohnson/,Integer.MAX_VALUE
+3-three,Double "double",toil 'and' "trouble",12345

@@ -1,0 +1,5 @@
+DIRECTION,String cardinal,String map,Point shift(,int,int),char cardChar,char mapChar
+NORTH,North,up,new Point(,0,-1,N,u
+WEST,West,left,new Point(,-1,0,W,l
+SOUTH,South,down,new Point(,0,1,S,d
+EAST,East,right,new Point(,1,0,E,r
